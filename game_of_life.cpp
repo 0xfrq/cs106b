@@ -63,9 +63,6 @@ void maxxing(Grid& grid) {
                     }
 
                     int final = beforefulll+currentfulll+afterfulll;
-                    // if (grid[i][j] == 'X') {
-                    //     cout << final << " Line : " << i << "," << j << endl;
-                    // } 
                     if (grid[i][j] == 'X') {
                         if (final < 2 || final > 3)
                             temp[i][j] = '-';   
